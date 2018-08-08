@@ -1,6 +1,6 @@
-# wedroit
-## Python crawler of wexin group.
-If you are beset by too many weixin article to archive just like me, this python crawler will help you out of this trap.
+# wedroit|微抓
+## Python crawler of WeChat group.|微信群的python爬虫
+If you are beset by too many WeChat article to archive just like me, this python crawler will help you out of this trap.
 
 I will write the project below in chinese, forgive me about my lack of lexical.
 
