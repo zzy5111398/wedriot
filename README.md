@@ -1,8 +1,13 @@
-# wedroit|微抓
+# wedroit|微卓
 ## Python crawler of WeChat group.|微信群的python爬虫
 If you are beset by too many WeChat article to archive just like me, this python crawler will help you out of this trap.
 
-I will write the project below in chinese, forgive me about my lack of lexical.
+## Wedroit=WeChat + Android + Droit
+微卓是一个运行于微信小程序上的机器人，它能帮你在微信群中记录并转存有价值的文档，并以此建立一个属于自己的微信文章资料库。在你需要的时候，可以在云端下载并转存为PDF格式。
+微卓的灵感来源于我导师所在的微信群，他很热衷于保存一些有价值的思想，并在需要的时候将其转化为自己的Idea，比如项目书或论文等。
+近期由于微信机器人的热门，很多与微信群相关的功能被释放出来，其中唯一没有被实现的莫过于卷帙浩繁的微信文章。
+微信文章一般是普通微信公众号的文章，有时也是其他网页的文章，其两者本质并无区别，但作为微信群主要的资料载体，微信文章没有一个类似**QQ群文件**一样的管理工具。当然，收藏（Add to Favourite）是一个好方法，但是无分类归档和无法本地化保存使得该功能比较鸡肋。
+因此，本人尝试建立一个项目解决这一问题，并帮助用户建立自己的文档资料库。
 
 ## 工作流程
 1. 建立一个登陆python微信的web界面，并配有登陆后的爬虫定位功能，选定需要抓取消息文章的微信群。
@@ -12,7 +17,7 @@ I will write the project below in chinese, forgive me about my lack of lexical.
 
 ## 项目内容
 1. 一个包含微信登陆、爬虫定位和文档管理的前端。
-1. 运行python微信爬取url，并实现url转html的后端。
+1. 运行python微信（itchat）爬取url，并实现url转html的后端。
 1. 存放微信文章，并方便用户文档管理和收费下载的云端。
 
 ## 项目计划
@@ -24,4 +29,4 @@ I will write the project below in chinese, forgive me about my lack of lexical.
 ## 项目预期
 1. 将微信群中自己喜爱的微信文章保存起来是每个微信用户的权利（droit），而微信群却没有qq群那样方便的文档管理方案，因此wedroit能够让微信文章管理起来更加方便。
 1. 有些微信号收到媒体大佬压力，微信文章存在过期或删除情况。实时保存有助于保存要闻或八卦，给广大群众一个公平的网络环境。
-1. 微信爬虫由于其软件权限问题，一直是一片空白，因此wedroit（微抓）能够帮助用户自由抓取自己需要的聊天记录或文章，有效管理自己的个人信息。
+1. 微信爬虫由于其软件权限问题，一直是一片空白，因此wedroit（微卓）能够帮助用户自由抓取自己需要的聊天记录或文章，有效管理自己的个人信息。
